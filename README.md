@@ -10,16 +10,9 @@ longer peeks out around the corners of maximised windows.
 Input is any image, output is a PNG sized for your screen. Nothing runs in the
 background — it is one shell script you run when you change wallpaper.
 
-```
-┌──────────────────────────────┐
-│ ████████ black strip ████████│  <- notch lives here, invisible
-│ ╭──────────────────────────╮ │
-│ │                          │ │
-│ │       your picture       │ │
-│ │                          │ │
-│ ╰──────────────────────────╯ │
-└──────────────────────────────┘
-```
+![A 14-inch MacBook Pro running norch: the menu bar is a solid black strip and the notch is invisible inside it](screenshot.jpg)
+
+*Photographed rather than screenshotted on purpose — a screenshot cannot show the notch, so it cannot show it being hidden either.*
 
 ## Requirements
 
