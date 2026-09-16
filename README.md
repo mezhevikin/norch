@@ -17,14 +17,7 @@ to macOS 27 and it stopped working. The author replied quickly and said a fix wa
 coming, but a couple of weeks out — fair enough for a free app, and too long to
 stare at the notch.
 
-So I asked Claude to write a replacement instead of waiting. It took about three
-rounds of "not quite". The first version rounded the corners of the black bar,
-which is invisible, instead of the corners of the picture below it. The second
-had the strip three pixels short of where windows begin, which left a seam of
-wallpaper above every window — the exact thing the tool is supposed to remove.
-Both were caught by screenshotting the desktop and reading the pixel values down
-a column, which turned out to be a better reviewer than my eyes.
-
+So I asked Claude to write a replacement instead of waiting.
 The result does less than TopNotch: no menu bar, no live preview, no per-display
 handling. It writes an image file. That happens to be all I wanted.
 
